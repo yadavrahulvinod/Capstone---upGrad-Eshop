@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.product-details-container {
+    margin-top: 20px;
+  }
+  
+  .product-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-name {
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    color: #007185; 
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    margin-bottom: 20px;
+  }
+  

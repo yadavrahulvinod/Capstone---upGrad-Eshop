@@ -1,0 +1,55 @@
+.navbar-search {
+    position: relative;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+  
+  .navbar-search:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    width: 35ch;
+  }
+  
+  .navbar-search-input {
+    color: inherit;
+    width: 100%;
+  }
+  
+  .navbar-search-input .MuiInputBase-input {
+    padding: 8px 12px;
+    padding-left: calc(1em + 48px);
+    transition: width 0.3s ease;
+  }
+  
+  .navbar-menu-icon {
+    padding: 0 16px;
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-button {
+    margin: 8px;
+    color: white;
+    display: block;
+    border: 1px solid white;
+  }
+  
+  .navbar-button-text {
+    color: inherit;
+  }
+  
+  .navbar-button-text:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  
+  .navbar-button-text:focus {
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  
+  .navbar-button-text:active {
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  
+  
